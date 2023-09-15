@@ -8,7 +8,7 @@ export default function Card(props) {
   return(
     <div className="card">
       <div className="card-img">
-        <img src={`../public/images/${props.img}`} alt="Tokyo, Japan" title={props.loc} />
+        <img src={`./public/images/${props.img}`} alt="Tokyo, Japan" title={props.loc} />
       </div>
 
       <div className="card-desc">
